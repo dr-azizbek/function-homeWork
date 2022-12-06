@@ -1,0 +1,29 @@
+
+body{
+    width: 1140px;
+    margin: 0 auto;
+    background-color: #1a1818;
+}
+
+#result{
+    position: relative;
+    top: 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #605555;
+
+}
+#btn{
+    margin-left: 45%;
+    display: block;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #605555;
+    background-color: brown;
+    border-radius: 20%;
+}

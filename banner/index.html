@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,22 @@
     <title>Banner</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div id="banner" onclick="console.log(`bosildi`)">
+    <!-- <div id="banner" onclick="console.log(`bosildi`); console.log(`salom`)"> -->
+    <div id="banner" onclick="func()">
+
         <h1>Salom</h1>
         <p>Qiziqarli ma'lumotlarni olish uchun oting.</p>
         <img src="./11896e09-e5af-578e-7b72-332400da96b4.jpg" alt="Qiziqarli ma'lumotlar">
     </div>
+    <script>
+        let n = 0
+        function func(){
+            n=n+1
+            console.log(n+'-bosildi')
+        }
+    </script>
 </body>
+
 </html>

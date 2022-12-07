@@ -4,16 +4,16 @@ function func() {
     let givenMonth = +prompt("Berilgan oylikni kiriting: ")
 
     if (givenMonth > monthly) {
-        resut = ("Bu oy ko'proq oylik berildi!")
+        result = ("Bu oy ko'proq oylik berildi!")
     }
 
 
     if (givenMonth < monthly) {
-        resut = (`Bu oy ${monthly - givenMonth} kamroq oylik berildi!`)
+        result = (`Bu oy ${monthly - givenMonth} kamroq oylik berildi!`)
     }
 
     else {
-        resut = ("Odatiy oylik summasi berildi!")
+        result = ("Odatiy oylik summasi berildi!")
     }
     document.querySelector("#result").innerHTML = result
 
